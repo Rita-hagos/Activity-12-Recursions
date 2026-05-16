@@ -23,3 +23,20 @@ The base case is:
   The fucntion checks for
      If its a number = print it
      If it's an array = call recursion again
+
+  ##Pseudocode:
+
+  Function printNumbers(array)
+
+  FOR each element in array
+   IF element is a number 
+    PRINT element
+
+  ElSE IF element is an arrat
+  CALL printNUmbers(element)
+
+   END IF
+  END FOR
+
+ END FUNCTION
+
